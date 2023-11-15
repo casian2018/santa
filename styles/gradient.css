@@ -1,0 +1,17 @@
+@keyframes gradientChange {
+  0% {
+    background: linear-gradient(45deg, #f06, #9f6);
+  }
+  25% {
+    background: linear-gradient(45deg, #9f6, #f06);
+  }
+  50% {
+    background: linear-gradient(45deg, #f06, #f66);
+  }
+  75% {
+    background: linear-gradient(45deg, #f66, #f06);
+  }
+  100% {
+    background: linear-gradient(45deg, #f06, #9f6);
+  }
+}
