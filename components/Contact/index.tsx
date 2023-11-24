@@ -6,7 +6,7 @@ import HCaptcha from "@hcaptcha/react-hcaptcha";
 const Contact = () => {
   return (
     <>
-      <div className="mx-auto max-w-screen-lg p-5 mt-24 mb-24">
+      <div className="mx-auto mt-24 mb-24 max-w-screen-lg p-5">
         <div className="grid grid-cols-1 border md:grid-cols-12">
           <div className="bg-gray-900 p-10 text-white md:col-span-4">
             <p className="font-regular mt-4 text-sm uppercase leading-7">
@@ -16,9 +16,10 @@ const Contact = () => {
               Contacteaza - <span className="text-green-600">ne</span>
             </h3>
             <p className="mt-4 leading-7 text-gray-200">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              Ai vreo nelămurire , să vrei să ne întrebi ceva ? <br /> Ei bine
+              am lăsat această secțiune a site -ului pentru a ne putea pune
+              orice fel de întrebări și nelamuri atât legate de noi cât și de
+              produsele noastre.
             </p>
 
             <div className="mt-5 flex items-center">
@@ -43,9 +44,7 @@ const Contact = () => {
                   </g>
                 </g>
               </svg>
-              <span className="text-sm">
-              Timișoara , România
-              </span>
+              <span className="text-sm">Timișoara , România</span>
             </div>
             <div className="mt-5 flex items-center">
               <svg
@@ -125,10 +124,8 @@ const Contact = () => {
           <form className="p-10 md:col-span-8">
             <div className="-mx-3 mb-6 flex flex-wrap">
               <div className="mb-6 w-full px-3 md:mb-0 md:w-1/2">
-                <label
-                  className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
-                >
-                  First Name
+                <label className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700">
+                  Numele
                 </label>
                 <input
                   className="mb-3 block w-full appearance-none rounded border border-red-500 bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:bg-white focus:outline-none"
@@ -137,12 +134,12 @@ const Contact = () => {
                   placeholder="Jane"
                 />
                 <p className="text-xs italic text-red-500">
-                  Please fill out this field.
+                  Te rog sa completezi aceasta caseta.
                 </p>
               </div>
               <div className="w-full px-3 md:w-1/2">
                 <label className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700">
-                  Last Name
+                  Prenumele
                 </label>
                 <input
                   className="block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
@@ -155,7 +152,7 @@ const Contact = () => {
             <div className="-mx-3 mb-6 flex flex-wrap">
               <div className="w-full px-3">
                 <label className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700">
-                  Email Address
+                  Adresa de Email
                 </label>
                 <input
                   className="mb-3 block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
@@ -169,7 +166,7 @@ const Contact = () => {
             <div className="-mx-3 mb-6 flex flex-wrap">
               <div className="w-full px-3">
                 <label className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700">
-                  Your Message
+                  Mesajul Tau
                 </label>
                 <textarea className="mb-3 block w-full appearance-none rounded border border-gray-200 bg-gray-200 py-3 px-4 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"></textarea>
               </div>
@@ -177,7 +174,7 @@ const Contact = () => {
                 <div className="md:flex md:items-center">
                   <label className="block font-bold text-gray-500">
                     <input className="mr-2 leading-tight" type="checkbox" />
-                    <span className="text-sm">Send me your newsletter!</span>
+                    <span className="text-sm">Primeste notificari cu toate noutatile !</span>
                   </label>
                 </div>
                 <button
