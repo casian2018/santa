@@ -65,21 +65,6 @@ const Header = () => {
           </nav>
         </section>
       </div>
-      <div className="absolute bottom-0 right-0 z-10 mb-4 mr-4">
-        <div>
-          <a
-            title="Follow me on twitter"
-            href="https://www.twitter.com/asad_codes"
-            target="_blank"
-            className="block h-16 w-16 transform rounded-full shadow transition-all hover:rotate-12 hover:scale-110 hover:shadow-lg"
-          >
-            <img
-              className="h-full w-full rounded-full object-cover object-center"
-              src=""
-            />
-          </a>
-        </div>
-      </div>
     </>
   );
 };
